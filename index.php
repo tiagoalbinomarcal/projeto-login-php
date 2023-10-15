@@ -19,11 +19,12 @@
             
             if(!isset($_SESSION)){
                 session_start();
-            }else{
-                $_SESSION['email'] = $usuario['id'];
-                $_SESSION['nome'] = $usuario['nome'];
             }
-            header('location: pag.php');
+
+            $usuario['id'] = $_SESSION['id'];
+            $usuario['nome'] = $_SESSION['nome'];
+
+            //header('location: pag.php');
         }
 
         
