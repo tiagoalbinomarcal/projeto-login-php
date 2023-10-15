@@ -1,0 +1,78 @@
+[33mcommit 2bfb22d6e2b8f61ea7ff9ac63852c0eb393d1a18[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 0233e11 960c93a
+Author: Tiago Albino Marçal <136192132+tiagoalbinomarcal@users.noreply.github.com>
+Date:   Sun Oct 15 18:57:11 2023 -0300
+
+    Merge branch 'main' of https://github.com/tiagoalbinomarcal/projeto-login-php
+
+[33mcommit 0233e11bfcacf3ea0e7b3d694b4d1a9d2e83de9c[m
+Author: Tiago Albino Marçal <136192132+tiagoalbinomarcal@users.noreply.github.com>
+Date:   Sun Oct 15 18:57:07 2023 -0300
+
+    heroku
+
+[33mcommit 960c93a8b351fd41b88266c395c3221d8d79f3ec[m
+Author: Tiago Albino Marçal <136192132+tiagoalbinomarcal@users.noreply.github.com>
+Date:   Sun Oct 15 18:29:08 2023 -0300
+
+    Update README.md
+
+[33mcommit d05827b6912cb7cb8f751083540dad1e05bffab2[m
+Author: Tiago Albino Marçal <136192132+tiagoalbinomarcal@users.noreply.github.com>
+Date:   Sun Oct 15 18:27:48 2023 -0300
+
+    Update README.md
+
+[33mcommit 2b4d367449a53429490ba38bbfd44cb58c6d9a5b[m
+Author: Tiago Albino Marçal <136192132+tiagoalbinomarcal@users.noreply.github.com>
+Date:   Sun Oct 15 18:27:14 2023 -0300
+
+    Update README.md
+
+[33mcommit 1e47389b6064b2526ced27a51464912fb68ab7f2[m
+Author: Tiago Albino Marçal <136192132+tiagoalbinomarcal@users.noreply.github.com>
+Date:   Sun Oct 15 18:26:52 2023 -0300
+
+    Update README.md
+
+[33mcommit 96ffa6790f107c7945d2a3cc686cf91abef50f3b[m
+Author: Tiago Albino Marçal <136192132+tiagoalbinomarcal@users.noreply.github.com>
+Date:   Sun Oct 15 18:19:38 2023 -0300
+
+    Update README.md
+
+[33mcommit 8cbaf0c2d154bba750a6fc8a730baa8faa76286e[m
+Author: Tiago Albino Marçal <136192132+tiagoalbinomarcal@users.noreply.github.com>
+Date:   Sun Oct 15 18:09:46 2023 -0300
+
+    erro corrigido + logout adicionado
+
+[33mcommit d2ca240e2c7ad874741d8e2cc581fe3f9ac0432c[m
+Author: Tiago Albino Marçal <136192132+tiagoalbinomarcal@users.noreply.github.com>
+Date:   Sun Oct 15 18:03:05 2023 -0300
+
+    erro em SESSION['id']
+
+[33mcommit 4e64a6f8fb839cc94950614722ea034cf9ade2ea[m
+Author: Tiago Albino Marçal <136192132+tiagoalbinomarcal@users.noreply.github.com>
+Date:   Sun Oct 15 15:24:44 2023 -0300
+
+    redirecionamento de pagina no login
+
+[33mcommit 4ab6d91c406237bfcfba5cf03bb6560d1016c558[m
+Author: Tiago Albino Marçal <136192132+tiagoalbinomarcal@users.noreply.github.com>
+Date:   Sun Oct 15 15:17:30 2023 -0300
+
+    SESSION definida
+
+[33mcommit dc4a94ae7557417c91dba386275180bd609c7cf1[m
+Author: Tiago Albino Marçal <136192132+tiagoalbinomarcal@users.noreply.github.com>
+Date:   Sun Oct 15 15:04:08 2023 -0300
+
+    conexão estabelecida
+
+[33mcommit bf2600c5bb1019ea7115ea9ddf1e33af9049d8e4[m
+Author: Tiago Albino Marçal <136192132+tiagoalbinomarcal@users.noreply.github.com>
+Date:   Sun Oct 15 15:02:06 2023 -0300
+
+    Initial commit
