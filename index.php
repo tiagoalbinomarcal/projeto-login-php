@@ -23,7 +23,10 @@
                 $_SESSION['email'] = $usuario['id'];
                 $_SESSION['nome'] = $usuario['nome'];
             }
+            header('location: pag.php');
         }
+
+        
 
     } 
 
