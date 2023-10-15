@@ -12,9 +12,19 @@
             echo 'Falha em executar a seleção.';
         }
 
-        if($sql->countColumn() < 1){
+        if($sql->rowCount() != 1){
             echo 'email ou senha incorretos';
+        }else{
+            $usuario = $sql->fetch(PDO::FETCH_ASSOC);
+            
+            if(!isset($_SESSION)){
+                session_start();
+            }else{
+                $_SESSION['email'] = $usuario['id'];
+                $_SESSION['nome'] = $usuario['nome'];
+            }
         }
+
     } 
 
     
