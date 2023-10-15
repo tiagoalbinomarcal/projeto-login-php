@@ -7,5 +7,5 @@
 - Page of the website (tool) that edits.
 
 Using:
-Back-end -> PHP
-Front-end -> HTML | CSS | BOOTSTRAP
+- Back-end -> PHP
+- Front-end -> HTML | CSS | BOOTSTRAP
