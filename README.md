@@ -1,5 +1,5 @@
 # LOGIN - FIRST FULL STACK PROJECT
-In production (Still in production) Complete login page that provides access to a code editor.
+(Still in production) Complete login page that provides access to a code editor.
 
 - Login Page;
 - Registration Page;
