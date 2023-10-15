@@ -13,5 +13,7 @@
 </head>
 <body>
     <h1>Olá, <?php echo $_SESSION['nome'];?>. Você está no painel que só pode ser acessado por quem fez o login!<?php?></h1>
+
+    <p><a href="http://localhost/php-projeto-login/projeto-login-php/logout.php">logout</a></p>
 </body>
 </html>

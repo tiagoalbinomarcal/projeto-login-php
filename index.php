@@ -21,10 +21,10 @@
                 session_start();
             }
 
-            $usuario['id'] = $_SESSION['id'];
-            $usuario['nome'] = $_SESSION['nome'];
-
-            //header('location: pag.php');
+            $_SESSION['nome'] = $usuario['nome'];
+            $_SESSION['id'] = $usuario['id'];
+            
+            header('location: pag.php');
         }
 
         
