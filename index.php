@@ -1,5 +1,5 @@
 <?php
-
+/*
     include('conexao.php');
 
     if(isset($_POST['email']) && isset($_POST['senha'])){
@@ -30,10 +30,10 @@
         
 
     } 
-
-    
+*/
+    echo 'hello world!'
 ?>
-
+<!--
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
