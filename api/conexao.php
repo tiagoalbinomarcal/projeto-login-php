@@ -1,5 +1,5 @@
 <?php
-
+    /*
     $username = 'root';
     $password = '';
     try{
@@ -7,5 +7,5 @@
     }catch(Exeption $e){
         die('falha ao conectar com o banco de dados!');
     }
-    
-?> 
+  */  
+?>
