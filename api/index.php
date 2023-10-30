@@ -20,12 +20,12 @@
             if(!isset($_SESSION)){
                 session_start();
                 echo 'session started';
-                var_dump ($_SESSION);
+                
             }
 
             $_SESSION['nome'] = $usuario['nome'];
             $_SESSION['id'] = $usuario['id'];
-            
+            var_dump ($_SESSION);
             //header('location: api/pag.php');
         }
 
