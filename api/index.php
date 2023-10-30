@@ -25,7 +25,7 @@
 
             $_SESSION['nome'] = $usuario['nome'];
             $_SESSION['id'] = $usuario['id'];
-            var_dump ($_SESSION);
+            
             header('location: api/pag.php');
         }
 
