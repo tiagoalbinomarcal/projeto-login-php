@@ -19,8 +19,6 @@
             
             if(!isset($_SESSION)){
                 session_start();
-                echo 'session started';
-                
             }
 
             $_SESSION['nome'] = $usuario['nome'];
