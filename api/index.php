@@ -17,12 +17,12 @@
         }else{
             $usuario = $sql->fetch(PDO::FETCH_ASSOC);
             
-            if(!isset($_SESSION)){
-                session_start();
+            if(!isset($_COOKIE)){
+                setcookie("TestCookie['id']", $usuario['id']);
+                echo 'teste';
             }
 
-            $_SESSION['nome'] = $usuario['nome'];
-            $_SESSION['id'] = $usuario['id'];
+            
             
             header('location: api/pag.php');
         }
