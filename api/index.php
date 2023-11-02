@@ -16,13 +16,11 @@
             echo 'email ou senha incorretos';
         }else{
             $usuario = $sql->fetch(PDO::FETCH_ASSOC);
-            
-            if(!isset($_COOKIE)){
-                setcookie("TestCookie['id']", $usuario['id']);
-                echo 'teste';
+            setcookie("TestCookie['id']", $usuario['id']);
+            /*if(!isset($_COOKIE)){
+                setcookie("TestCookie", $usuario['id']);
             }
-
-            
+            */
             
             header('location: api/pag.php');
         }
