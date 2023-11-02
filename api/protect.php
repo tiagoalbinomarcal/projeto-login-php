@@ -6,7 +6,5 @@
     */
     if(!isset($_COOKIE['TestCookie'])){
         die("Pagina protegida para quem está logado!!");
-    }else{
-        var_dump($_COOKIE);
     }
 ?>
