@@ -9,5 +9,5 @@ header('location: index.php')
 */
 
 setcookie("TestCookie['id']", "", time() - 3600); 
-header('location: api/index.php')
+header('location: index.php')
 ?>
