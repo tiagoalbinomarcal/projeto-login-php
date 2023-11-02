@@ -13,5 +13,4 @@ Using:
 Direct Link: https://projeto-login-php.vercel.app/api
 
 Next step:
-- Deploy an online database;
 - Implement a registration system.
