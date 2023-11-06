@@ -5,7 +5,7 @@
     if(isset($_POST['email']) && isset($_POST['senha'])){
         $email = $_POST['email'];
         $senha = $_POST['senha'];
-        $sql = $conn->prepare("SELECT * FROM clientes WHERE email = '$email' AND senha = '$senha'");
+        $sql = $conn->prepare("SELECT * FROM viewers WHERE email = '$email' AND senha = '$senha'");
         try{
             $sql->execute();
         }catch(Exeption $e){
@@ -22,7 +22,7 @@
             }
             */
             
-            header('location: api/pag.php');
+            header('location: pag.php');
         }
 
         
