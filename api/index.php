@@ -22,7 +22,7 @@
             }
             */
             
-            header('location: pag.php');
+            header('location: api/pag.php');
         }
 
         
