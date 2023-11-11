@@ -1,7 +1,7 @@
 <?php
     
-    $username = '0o6bt1xfny63103vvlau';
-    $password = 'pscale_pw_rsMSkppj3fpjLsREVGg9yxrBgJrkkWuR4lZjSa8ep34';
+    $username = 'j5m76eng7bqdl8p2fy6m';
+    $password = 'pscale_pw_mcEtqBDfU9bZ50WCY2E04DSHCd0Z2AcvCByOpttqUsC';
     $options = array(
         PDO::MYSQL_ATTR_SSL_CA => 'C:\xampp\htdocs\php-projeto-login\projeto-login-php\api\cacert2.pem',
     );
