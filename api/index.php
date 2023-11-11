@@ -13,7 +13,7 @@
         }
 
         if($sql->rowCount() != 1){
-            echo 'email ou senha incorretos';
+            echo 'email ou senha incorretos!';
         }else{
             $usuario = $sql->fetch(PDO::FETCH_ASSOC);
             setcookie("TestCookie['id']", $usuario['id']);
