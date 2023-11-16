@@ -10,6 +10,10 @@ Using:
 - Back-end -> PHP
 - Front-end -> HTML | CSS | BOOTSTRAP
 
+Tools:
+- Hosting -> Vercel
+- DB -> Planet Scale
+
 Direct Link: https://projeto-login-php.vercel.app/api
 
 Next step:
