@@ -13,7 +13,7 @@
         }
 
         if($sql->rowCount() != 1){
-            echo 'email ou senha incorretos!';
+            echo '<div class="alert alert-warning" role="alert">This will be the warning alert</div>';
         }else{
             $usuario = $sql->fetch(PDO::FETCH_ASSOC);
             setcookie("TestCookie['id']", $usuario['id']);
@@ -40,8 +40,9 @@
     <title>Login</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/mediaqueries.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+      
 </head>
 <body>
     <main>
@@ -72,5 +73,6 @@
         </section>
 
     </main>
+
 </body>
 </html>

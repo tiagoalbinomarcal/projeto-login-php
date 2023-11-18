@@ -30,7 +30,7 @@ main{
 
 main > section{
     background-color: white;
-    width: 300px;
+    width: 400px;
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
@@ -55,13 +55,23 @@ div#form > h1{
 
 div#form p{
     font-size: 0.8em;
+    margin-bottom: 10px;
 }
 
 div#imagem{
     background: url(../imagens/prediopq.jpg) left bottom;
-    width: 300px;
+    width: 400px;
     height: 200px;
 }
+
+
+.alert.alert-warning {
+    background-color: rgba(252, 248, 227, 1);
+    border-color: rgba(177, 161, 129, 1);
+    color: rgba(138, 109, 59, 1);
+    border: 2px solid rgba(177, 161, 129, 1);
+    padding: 10px;
+  }
 
 #sub[type=submit]{
     display: block;
