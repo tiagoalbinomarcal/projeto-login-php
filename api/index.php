@@ -9,11 +9,12 @@
         try{
             $sql->execute();
         }catch(Exeption $e){
-            echo 'Falha em executar a seleção.';
+            echo $e;
         }
 
         if($sql->rowCount() != 1){
-            echo '<div class="alert alert-warning" role="alert">This will be the warning alert</div>';
+            session_start();
+            $_SESSION['login_error'] = true;
         }else{
             $usuario = $sql->fetch(PDO::FETCH_ASSOC);
             setcookie("TestCookie['id']", $usuario['id']);
@@ -47,12 +48,26 @@
 <body>
     <main>
         <section id="login">
+
             <div id="imagem">
             </div>
             <div id="form">
                 <h1>Login</h1>
                 <p>Seja bem vindo(a). Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form method="post" autocomplete="on">
+                <?php
+            
+                    if (isset($_SESSION['login_error'])){
+                        if($_SESSION['login_error'] == true){
+                            echo '<div class="alert alert-warning" role="alert">Login or password incorrect! </div>'; //alert login fail
+                                                    
+                        }
+
+                        }
+                        
+                    
+                
+                ?>
                     <div class="campo">
                         <i class="material-icons">person</i>
                         <input type="email" name="email" id="ilogin" placeholder="Insira seu e-mail" autocomplete="email" required minlength="5" maxlength="30" class='texts'>
