@@ -72,7 +72,7 @@ div#imagem{
     border: 2px solid rgba(177, 161, 129, 1);
     padding: 10px;
 
-    position: absolute;
+    position: relative;
   }
 
 #sub[type=submit]{

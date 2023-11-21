@@ -12,7 +12,7 @@
     <title>PAINEL</title>
 </head>
 <body>
-    <h1>PAINEL OCULTO</h1>
+    <h1>PAINEL OCULTO!</h1>
     <p><a href="http://localhost/php-projeto-login/projeto-login-php/api/logout.php">logout</a></p>
 </body>
 </html>

@@ -60,7 +60,7 @@
                     if (isset($_SESSION['login_error'])){
                         if($_SESSION['login_error'] == true){
                             echo '<div class="alert alert-warning" role="alert">Login or password incorrect! </div>'; //alert login fail
-                                                    
+                            echo '<style>main > section{ height: 540px }</style>';                      
                         }
 
                         }
