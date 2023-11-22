@@ -96,7 +96,11 @@
 
         function closePopup() {
         document.getElementById("javascript2").style.display = "none";
-        document.getElementById("login").style.height = "500px";
+    
+        //if (window.matchMedia("(max-width: 601px)").matches){
+            document.getElementById("login").style.height = "500px";
+        //}
+        
         }
     </script>
 
