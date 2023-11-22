@@ -42,6 +42,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/mediaqueries.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     
       
 </head>
@@ -59,8 +60,10 @@
             
                     if (isset($_SESSION['login_error'])){
                         if($_SESSION['login_error'] == true){
-                            echo '<div class="alert alert-warning" role="alert">Login or password incorrect! </div>'; //alert login fail
-                            echo '<style>main > section{ height: 540px }</style>';                      
+                            echo '<div id="javascript2" class="alert alert-warning" role="alert">Login or password incorrect! <button onclick="closePopup()" class="material-symbols-outlined" id="javascript">
+                            close
+                            </button> </div>'; //alert login fail
+                            echo '<style>#login{ height: 540px }</style>';                      
                         }
 
                         }
@@ -88,6 +91,14 @@
         </section>
 
     </main>
+
+    <script>
+
+        function closePopup() {
+        document.getElementById("javascript2").style.display = "none";
+        document.getElementById("login").style.height = "500px";
+        }
+    </script>
 
 </body>
 </html>

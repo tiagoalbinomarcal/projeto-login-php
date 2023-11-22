@@ -28,7 +28,7 @@ main{
     width: 100vw;
 }
 
-main > section{
+#login{
     background-color: white;
     width: 400px;
     height: 500px;
@@ -152,4 +152,20 @@ div.campo input:focus-within{
 
 a > i{
     transform: translateY(7px);
+}
+
+#javascript{
+    display: block;
+    position: absolute;
+    right: 10px;
+    
+    transform: translateY(-87%);
+
+    background-color: rgba(252, 248, 227, 1);
+    border:none;
+
+}
+
+#javascript:hover{
+    background-color: rgb(224, 204, 163);;
 }
