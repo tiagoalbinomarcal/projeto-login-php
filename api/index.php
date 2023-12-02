@@ -64,7 +64,7 @@
                             echo '<div id="javascript2" class="alert alert-warning" role="alert">Login or password incorrect! <button onclick="closePopup()" class="material-symbols-outlined" id="javascript">
                             close
                             </button> </div>'; //alert login fail
-                            echo '<style>#login{ height: 540px }</style>';                      
+                            echo '<style>#login{ height: 600px }</style>';                      
                         }
 
                         }
@@ -103,7 +103,7 @@
         document.getElementById("javascript2").style.display = "none";
     
         //if (window.matchMedia("(max-width: 601px)").matches){
-            document.getElementById("login").style.height = "500px";
+            document.getElementById("login").style.height = "560px";
         //}
         
         }
