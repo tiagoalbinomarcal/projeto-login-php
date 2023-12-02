@@ -83,8 +83,12 @@
                             <input type="password" name="senha" id="isenha" placeholder="Insira sua senha" autocomplete="current-password" required minlength="8" class='texts'>
                             <label for="isenha">Senha</label><br/>
                         </div>
-                        <input type="submit" value="Entrar" id="sub">
+                        <input type="submit" value="Login" id="sub">
+                        <img id="orpng" src="../imagens/or.png" alt="">
+                        <button id="signupbutton"><a href="#">Sign up</a></button>
                         <a href="pag1.html" id="esqueci">Forgot your password?</a>
+                        
+                        
                     </div>
 
                 </form>
