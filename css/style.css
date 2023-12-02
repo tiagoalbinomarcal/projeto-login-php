@@ -28,9 +28,15 @@ main{
     width: 100vw;
 }
 
+.bg-image {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('../imagens/keyboard.jpg');
+    background-size: cover;
+}
+
 #login{
     background-color: white;
-    width: 400px;
+    width: 330px;
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
@@ -95,21 +101,18 @@ div#imagem{
 
 #esqueci{
     display: block;
-    text-align: center;
+    text-align: right;
     font-size: 1em;
     background-color: white;
-    height: 40px;
     text-decoration: none;
-    color: var(--verde);
-    border-radius: 5px;
-    margin-top: 5px;
-    border: 2px solid var(--verde);
+    margin-top: 10px;
+    
 }
 
-#esqueci:hover{
+/*#esqueci:hover{
     background-color: rgb(180, 180, 180);
 }
-
+*/
 div.campo{
     background-color: #325adb;
     height: 42px;
@@ -117,8 +120,8 @@ div.campo{
     border-radius: 10px;
 }
 
-.texts{
-    transform: translateY(-9px) !important;
+.texts {
+    transform: translateY(-10px) !important;
 }
 
 label{

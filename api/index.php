@@ -48,7 +48,7 @@
       
 </head>
 <body>
-    <main>
+    <main class="bg-image">
         <section id="login">
 
             <div id="imagem">
@@ -84,7 +84,7 @@
                             <label for="isenha">Senha</label><br/>
                         </div>
                         <input type="submit" value="Entrar" id="sub">
-                        <a href="pag1.html" id="esqueci">Esqueci a senha <i class="material-icons" id="iconeemail">email</i></a>
+                        <a href="pag1.html" id="esqueci">Forgot your password?</a>
                     </div>
 
                 </form>
