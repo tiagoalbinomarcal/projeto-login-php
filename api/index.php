@@ -55,7 +55,7 @@
             </div>
             <div id="form">
                 <h1>Login</h1>
-                <p>Seja bem vindo(a). Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <p>Welcome. Please log in to access your account and make configurations in your environment.</p>
                 <form method="post" autocomplete="on">
                 <?php
             
@@ -74,13 +74,13 @@
                 ?>
                     <div class="campo">
                         <i class="material-icons">person</i>
-                        <input type="email" name="email" id="ilogin" placeholder="Insira seu e-mail" autocomplete="email" required minlength="5" maxlength="30" class='texts'>
+                        <input type="email" name="email" id="ilogin" placeholder="Insert your email" autocomplete="email" required minlength="5" maxlength="30" class='texts'>
                         <label for="ilogin">Login</label>
                     </div>
                     <div>
                         <div class="campo">
                             <i class="material-icons">key</i>
-                            <input type="password" name="senha" id="isenha" placeholder="Insira sua senha" autocomplete="current-password" required minlength="8" class='texts'>
+                            <input type="password" name="senha" id="isenha" placeholder="Insert your password" autocomplete="current-password" required minlength="8" class='texts'>
                             <label for="isenha">Senha</label><br/>
                         </div>
                         <input type="submit" value="Login" id="sub">

@@ -147,7 +147,7 @@ div.campo input{
 
     transform: translateY(-11px);
     border: 3px solid #325adb;
-
+    padding: 10px;
 }
 
 div.campo input:focus-within{
@@ -175,10 +175,10 @@ a > i{
 }
 
 #orpng{
-    width: 50%;
+    display: block;
+    width: 240px;
     height: 40px;
     margin: auto;
-    transform: translateX(50%);
 }
 
 #signupbutton{
