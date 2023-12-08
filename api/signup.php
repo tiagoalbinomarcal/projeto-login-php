@@ -18,24 +18,22 @@
       
 </head>
 <body>
-    <main class="bg-image">
+    <main id="bg-image">
         <section id="login">
 
-        <div class="campo">
-                        <i class="material-icons">person</i>
-                        <input type="email" name="email" id="ilogin" placeholder="Insert your email" autocomplete="email" required minlength="5" maxlength="30" class='texts'>
-                        <label for="ilogin">Login</label>
-                    </div>
-                    <div>
-                        <div class="campo">
-                            <i class="material-icons">key</i>
-                            <input type="password" name="senha" id="isenha" placeholder="Insert your password" autocomplete="current-password" required minlength="8" class='texts'>
-                            <label for="isenha">Senha</label><br/>
-                        </div>
-                        <input type="submit" value="Login" id="sub">
-                        <img id="orpng" src="../imagens/or.png" alt="">
-                        <button id="signupbutton"><a href="signup.php">Sign up</a></button>
-                        <a href="pag1.html" id="esqueci">Forgot your password?</a>
+        <h1>New user registration</h1>  
+        
+        <input type="text" name="name" id="iname" placeholder="Insert your name" autocomplete="email" required maxlength="30" class='texts'>
+        
+        <input type="email" name="email" id="ilogin" placeholder="Insert your email" autocomplete="email" required minlength="5" maxlength="30" class='texts'>
+
+        <input type="password" name="senha" id="isenha" placeholder="Insert your password" autocomplete="current-password" required minlength="8" class='texts'>
+        
+            
+        <input type="password" name="senha" id="isenha" placeholder="Confirm your password" autocomplete="current-password" required minlength="8" class='texts'>
+        <label for="isenha">Senha</label><br/>
+        
+        <button id="signupbutton"><a href="signup.php">Sign up</a></button>
         </section>
 
     </main>

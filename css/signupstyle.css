@@ -1,3 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
 #login{
     padding: 10px;
+    background-color: rgba(255, 255, 255, 0)
+}
+
+#bg-image {
+    background-color: rgb(255, 255, 255);
+    background-image: url('../imagens/bgtest2.jpg');
+    background-size: cover;
+
+
+}
+
+.texts {
+    transform: translateY(0px) !important;
+}
+
+h1{
+    display: block;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: 2.2em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    line-height: 1em;
+
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.357);;
+}
+
+.texts{
+    width: 100%;
+    background-color: #21254a;
+    border-bottom-color: #cb0def;
+    border-top-color: none;
+    border: none;
+    border-bottom: 2px solid #cb0def;
+    outline: none;
+    transition: border-bottom 0.3s ease;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.texts:focus {
+    border-bottom: 2px solid #2B00F0; /* Adjust color and thickness as needed */
+}
+
+#signupbutton{
+    border-radius: 20px;
+    width: 200px;
+    margin: auto;
+    background: linear-gradient(to right, #cb0def, #2B00F0);
+    margin-top: 20px;
 }
