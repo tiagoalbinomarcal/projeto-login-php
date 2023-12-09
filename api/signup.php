@@ -34,7 +34,23 @@
         <label for="isenha">Senha</label><br/>
         
         <button id="signupbutton"><a href="signup.php">Sign up</a></button>
+        <img id="orpng" src="../imagens/or2.png" alt="">
+
+        <section id="Ways2Login">
+
+            <img id="facebookImg" src="../imagens/facebook.png" alt="">
+
+            <img id="googleImg" src="../imagens/google.png" alt="">
+
         </section>
+        
+
+        <p id="pAccount">Do you already have an account? <a href="../api/index.php">login</a></p>
+
+    
+    </section>
+
+        
 
     </main>
 

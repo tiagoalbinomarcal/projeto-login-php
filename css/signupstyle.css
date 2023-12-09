@@ -56,3 +56,37 @@ h1{
     background: linear-gradient(to right, #cb0def, #2B00F0);
     margin-top: 20px;
 }
+
+#pAccount{
+    margin-top:10px;
+    color: rgba(255, 255, 255, 0.516);
+    text-decoration: none;
+    text-align: center;
+}
+
+#pAccount a{
+    color: #cb0def;
+}
+
+#orpng{
+    display: block;
+    width: 200px;
+    height: 35px;
+    margin: auto;
+}
+
+#facebookImg{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+#googleImg{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+#Ways2Login{
+    margin: auto;
+}
