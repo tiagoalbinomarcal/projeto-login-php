@@ -23,9 +23,9 @@
 
         <h1>New user registration</h1>  
         
-        <input type="text" name="name" id="iname" placeholder="Insert your name" autocomplete="email" required maxlength="30" class='texts'>
+        <input type="text" name="name" id="iname" placeholder="Insert your name" autocomplete="off" required maxlength="30" class='texts'>
         
-        <input type="email" name="email" id="ilogin" placeholder="Insert your email" autocomplete="email" required minlength="5" maxlength="30" class='texts'>
+        <input type="email" name="email" id="ilogin" placeholder="Insert your email" autocomplete="off" required minlength="5" maxlength="30" class='texts'>
 
         <input type="password" name="senha" id="isenha" placeholder="Insert your password" autocomplete="current-password" required minlength="8" class='texts'>
         

@@ -13,11 +13,6 @@
 
 }
 
-.texts {
-    transform: translateY(0px) !important;
-    width: 90%;
-}
-
 h1{
     display: block;
     font-family: 'Nunito', sans-serif;
@@ -33,7 +28,7 @@ h1{
 
 .texts{
     width: 100%;
-    background-color: #21254a;
+    background-color: #21254a00 !important;
     border-bottom-color: #cb0def;
     border-top-color: none;
     border: none;
@@ -47,10 +42,10 @@ h1{
 }
 
 .texts:focus {
-    border-bottom: 2px solid #2B00F0; /* Adjust color and thickness as needed */
+    border-bottom: 2px solid #2B00F0; 
 }
 
-#signupbutton {
+.signupbutton {
     position: relative;
     border-radius: 20px;
     width: 200px;
@@ -62,7 +57,7 @@ h1{
     z-index: 2; /* Bring the button above the pseudo-element */
 }
 
-#signupbutton::before {
+.signupbutton::before {
     content: '';
     position: absolute;
     top: 0;
@@ -75,11 +70,11 @@ h1{
     z-index: -1;
 }
 
-#signupbutton:hover::before {
+.signupbutton:hover::before {
     opacity: 0;
 }
 
-#signupbutton:hover {
+.signupbutton:hover {
     background: linear-gradient(to right, #2B00F0, #cb0def);
 }
 

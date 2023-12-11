@@ -44,7 +44,10 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     
+    
     <script type="text/javascript" src="jquery.js"></script>
+
+    
       
 </head>
 <body>
@@ -72,24 +75,17 @@
                     
                 
                 ?>
-                    <div class="campo">
-                        <i class="material-icons">person</i>
+
                         <input type="email" name="email" id="ilogin" placeholder="Insert your email" autocomplete="email" required minlength="5" maxlength="30" class='texts'>
                         <label for="ilogin">Login</label>
-                    </div>
-                    <div>
-                        <div class="campo">
-                            <i class="material-icons">key</i>
-                            <input type="password" name="senha" id="isenha" placeholder="Insert your password" autocomplete="current-password" required minlength="8" class='texts'>
-                            <label for="isenha">Senha</label><br/>
-                        </div>
-                        <input type="submit" value="Login" id="sub">
+
+                        <input type="password" name="senha" id="isenha" placeholder="Insert your password" autocomplete="current-password" required minlength="8" class='texts'>
+                        <label for="isenha">Senha</label><br/>
+                        
+                        <input class="signupbutton" type="submit" value="Login" id="sub">
                         <img id="orpng" src="../imagens/or.png" alt="">
-                        <button id="signupbutton"><a href="../api/signup.php">Sign up</a></button>
-                        <a href="pag1.html" id="esqueci">Forgot your password?</a>
-                        
-                        
-                    </div>
+                        <button class="signupbutton"><a href="../api/signup.php">Teste</a></button>
+                        <!--<a href="pag1.html" id="esqueci">Forgot your password?</a>-->
 
                 </form>
             </div>
