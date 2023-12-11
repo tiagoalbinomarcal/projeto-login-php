@@ -38,9 +38,9 @@
 
         <section id="Ways2Login">
 
-            <img id="facebookImg" src="../imagens/facebook.png" alt="">
+            <a href="#"><div><img id="facebookImg" src="../imagens/facebook.png" alt=""></div></a>
 
-            <img id="googleImg" src="../imagens/google.png" alt="">
+            <a href="#"><div><img id="googleImg" src="../imagens/google.png" alt=""></div></a>
 
         </section>
         
