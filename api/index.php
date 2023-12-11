@@ -85,7 +85,7 @@
                         </div>
                         <input type="submit" value="Login" id="sub">
                         <img id="orpng" src="../imagens/or.png" alt="">
-                        <button id="signupbutton"><a href="signup.php">Sign up</a></button>
+                        <button id="signupbutton"><a href="../api/signup.php">Sign up</a></button>
                         <a href="pag1.html" id="esqueci">Forgot your password?</a>
                         
                         
