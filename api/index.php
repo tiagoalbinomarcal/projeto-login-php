@@ -52,10 +52,13 @@
 </head>
 <body>
     <main class="bg-image">
+        
+
         <section id="login">
 
-            <div id="imagem">
-            </div>
+        <section id="astronaut">
+            <img src="../imagens/astronaut.png" alt="">
+        </section>
             <div id="form">
                 <h1>Login</h1>
                 <p>Welcome. Please log in to access your account and make configurations in your environment.</p>
@@ -76,15 +79,19 @@
                 
                 ?>
 
-                        <input type="email" name="email" id="ilogin" placeholder="Insert your email" autocomplete="email" required minlength="5" maxlength="30" class='texts'>
+                        <input type="email" name="email" id="ilogin" placeholder="Insert your email" autocomplete="off" required minlength="5" maxlength="30" class='texts'>
                         <label for="ilogin">Login</label>
 
                         <input type="password" name="senha" id="isenha" placeholder="Insert your password" autocomplete="current-password" required minlength="8" class='texts'>
                         <label for="isenha">Senha</label><br/>
                         
-                        <input class="signupbutton" type="submit" value="Login" id="sub">
+                        <button class="signupbutton" type="submit">
+                            <a href="../api/signup.php">Login</a></button>
+
                         <img id="orpng" src="../imagens/or.png" alt="">
-                        <button class="signupbutton"><a href="../api/signup.php">Teste</a></button>
+
+                        <button class="signupbutton">
+                            <a href="../api/signup.php">Register</a></button>
                         <!--<a href="pag1.html" id="esqueci">Forgot your password?</a>-->
 
                 </form>

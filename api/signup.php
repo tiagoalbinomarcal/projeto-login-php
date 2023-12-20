@@ -33,7 +33,8 @@
         <input type="password" name="senha" id="isenha" placeholder="Confirm your password" autocomplete="current-password" required minlength="8" class='texts'>
         <label for="isenha">Senha</label><br/>
         
-        <button id="signupbutton"><a href="signup.php">Sign up</a></button>
+        <button class="signupbutton"><a href="signup.php">Sign up</a></button>
+        
         <img id="orpng" src="../imagens/or2.png" alt="">
 
         <section id="Ways2Login">
