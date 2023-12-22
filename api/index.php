@@ -90,8 +90,9 @@
 
                         <img id="orpng" src="../imagens/or.png" alt="">
 
-                        <button class="signupbutton">
-                            <a href="../api/signup.php">Register</a></button>
+                        <button class="signupbutton" onClick="redirectFunction()">
+                            <a href="../api/signup.php">Register</a>
+                        </button>
                         <!--<a href="pag1.html" id="esqueci">Forgot your password?</a>-->
 
                 </form>
@@ -101,6 +102,10 @@
     </main>
 
     <script>
+
+        function redirectFunction(){
+            window.location.href = "signup.php";
+        }
 
         function closePopup() {
         document.getElementById("javascript2").style.display = "none";

@@ -224,9 +224,10 @@ a > i{
     width: 200px;
     margin: auto;
     overflow: hidden;
-    color: white; /* Set text color */
+    color: white;
     background-color: #2B00F0;
     z-index: 2;
+
 }
 
 .signupbutton::before {
@@ -252,6 +253,7 @@ a > i{
 .signupbutton a{
     color: white;
     text-decoration: none;
+    width: 200px;
 }
 
 .signupbutton:hover{
